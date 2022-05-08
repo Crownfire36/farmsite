@@ -3,6 +3,7 @@ body{
     background-color: lightgray;
     color: #25373A;
     background-image: url(images/transparentwallv2.png);
+    background-position: center;
 }
 a{
     color: #25373A;
@@ -12,19 +13,19 @@ header{
     width: 100%;
     min-height: 150px;
     /* background: url(images/transparentwallv2.png); */
-    background-color: white;
+    background-color: lightgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    font-size: 20px;
+    font-size: 1vw;
     z-index: 3;
 }
 header h1{
     margin-left: 100px;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: white;
+    background-color: lightgray;
     padding: 5px 5px;
     border-style: solid;
     border-width: 1px;
@@ -36,7 +37,7 @@ header h1{
     padding: 10px 25px;
     border-style: solid;
     border-width: 1px;
-    background-color: white;
+    background-color: lightgray;
     border-color: #25373A;
     margin-left: 10px;
 }
@@ -85,8 +86,16 @@ header h1{
     position:sticky; 
 }
 
-
-
+.footer-container{
+    width: 100%;
+    background-color: gray;
+    height: 100px;
+}
+footer{
+    margin: 0 auto;
+    max-width: 1366px;
+    display: flex;
+}
 
 
 
